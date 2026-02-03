@@ -1,0 +1,9 @@
+{
+	"name": "sujispotifydatafactory",
+	"location": "canadacentral",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "38b5ccb7-6c1b-4537-aee8-81e919fe69d8",
+		"tenantId": "6bafd44e-ad7d-4c9f-80d8-b03e41f9b6d9"
+	}
+}
