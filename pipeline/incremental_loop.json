@@ -381,9 +381,6 @@
 						"from_date": ""
 					}
 				]
-			},
-			"table": {
-				"type": "string"
 			}
 		},
 		"variables": {
