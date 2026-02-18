@@ -54,7 +54,7 @@
 							}
 						},
 						{
-							"name": "current_copy3",
+							"name": "current",
 							"type": "SetVariable",
 							"dependsOn": [],
 							"policy": {
@@ -71,7 +71,7 @@
 							}
 						},
 						{
-							"name": "SQLTOLAKE_copy2",
+							"name": "SQLTOLAKE",
 							"type": "Copy",
 							"dependsOn": [
 								{
@@ -81,7 +81,7 @@
 									]
 								},
 								{
-									"activity": "current_copy3",
+									"activity": "current",
 									"dependencyConditions": [
 										"Succeeded"
 									]
@@ -149,11 +149,11 @@
 							]
 						},
 						{
-							"name": "ifincrementaldata_copy2",
+							"name": "ifincrementaldata",
 							"type": "IfCondition",
 							"dependsOn": [
 								{
-									"activity": "SQLTOLAKE_copy2",
+									"activity": "SQLTOLAKE",
 									"dependencyConditions": [
 										"Succeeded"
 									]
