@@ -149,7 +149,7 @@
 							}
 						},
 						{
-							"name": "ifincrementaldata_copy1",
+							"name": "ifincrementaldata",
 							"type": "IfCondition",
 							"dependsOn": [
 								{
@@ -167,7 +167,7 @@
 								},
 								"ifFalseActivities": [
 									{
-										"name": "Deleteemptyfile_copy1",
+										"name": "Deleteemptyfile",
 										"type": "Delete",
 										"dependsOn": [],
 										"policy": {
