@@ -338,7 +338,7 @@
 				"userProperties": [],
 				"typeProperties": {
 					"method": "POST",
-					"url": "https://prod-05.northcentralus.logic.azure.com:443/workflows/961afa5b1e1f4c1887641eb81f25c674/triggers/When_an_HTTP_request_is_received/paths/invoke?api-version=2016-10-01&sp=%2Ftriggers%2FWhen_an_HTTP_request_is_received%2Frun&sv=1.0&sig=7CUQ3OEpd48yzHC1fDFVBUsyZ0GAk2e4WPtFqncTTxM",
+					"url": "https://prod-28.northcentralus.logic.azure.com:443/workflows/01d6b8dd2a6d4d9db63b9176facfd3d8/triggers/When_an_HTTP_request_is_received/paths/invoke?api-version=2016-10-01&sp=%2Ftriggers%2FWhen_an_HTTP_request_is_received%2Frun&sv=1.0&sig=bu-S4F5Uj7H7nypFRyyLgQq4pVAl_fggS8GSfopQVWg",
 					"body": {
 						"value": "{\n   \"pipeline_name\" : \"@{pipeline().pipeline}\",\n   \"pipeline_runId\": \"@{pipeline().RunId}\"\n}",
 						"type": "Expression"
